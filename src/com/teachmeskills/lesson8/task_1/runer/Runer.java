@@ -17,7 +17,6 @@ public class Runer {
         System.out.print("Введите номер плана лечения 1-хирург, 2-дантист: ");
         int number = sc.nextInt();
         human.setPlan(number);
-        the.doctorsChoice(number);
         if(number == 1){
             human.setDoctor("Хирург");
         }else if(number == 2){
@@ -25,7 +24,8 @@ public class Runer {
         }else{
             human.setDoctor("Терапевт");
         }
-        System.out.print("Назначенны план лечения: " + human.getPlan() + " Доктор: " + human.getDoctor());
+        System.out.println("Назначенны план лечения: " + human.getPlan() + " Доктор: " + human.getDoctor());
+        the.doctorsChoice(number);
     }
 
 }
