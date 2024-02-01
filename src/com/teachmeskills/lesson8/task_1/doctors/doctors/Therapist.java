@@ -20,7 +20,6 @@ public class Therapist extends Doctors {
         }else if(number == 2){
             den.treat();
         }else{
-            System.out.print("План лечения не назначен отправлен к терапевту: ");
             treat();
         }
     }

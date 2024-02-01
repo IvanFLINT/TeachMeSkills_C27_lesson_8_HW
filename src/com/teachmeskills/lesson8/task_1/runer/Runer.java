@@ -17,12 +17,10 @@ public class Runer {
         System.out.print("Введите номер плана лечения 1-хирург, 2-дантист: ");
         int number = sc.nextInt();
         human.setPlan(number);
-        if(number == 1){
-            human.setDoctor("Хирург");
-        }else if(number == 2){
-            human.setDoctor("Дантист");
-        }else{
-            human.setDoctor("Терапевт");
+        switch (number){
+            case 1: human.setDoctor("Хирург"); break;
+            case 2: human.setDoctor("Дантист"); break;
+            default: human.setDoctor("Терапевт"); break;
         }
         System.out.println("Назначенны план лечения: " + human.getPlan() + " Доктор: " + human.getDoctor());
         the.doctorsChoice(number);
