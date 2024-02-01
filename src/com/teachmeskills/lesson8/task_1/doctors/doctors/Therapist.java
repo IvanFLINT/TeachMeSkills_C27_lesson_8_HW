@@ -16,13 +16,10 @@ public class Therapist extends Doctors {
     }
     public void doctorsChoice(int number){
         if(number == 1){
-            human.setDoctor("Хирург");
             as.treat();
         }else if(number == 2){
-            human.setDoctor("Дантист");
             den.treat();
         }else{
-            human.setDoctor("Терапевт");
             System.out.print("План лечения не назначен отправлен к терапевту: ");
             treat();
         }

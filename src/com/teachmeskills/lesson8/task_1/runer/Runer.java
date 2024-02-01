@@ -18,6 +18,13 @@ public class Runer {
         int number = sc.nextInt();
         human.setPlan(number);
         the.doctorsChoice(number);
+        if(number == 1){
+            human.setDoctor("Хирург");
+        }else if(number == 2){
+            human.setDoctor("Дантист");
+        }else{
+            human.setDoctor("Терапевт");
+        }
         System.out.print("Назначенны план лечения: " + human.getPlan() + " Доктор: " + human.getDoctor());
     }
 
