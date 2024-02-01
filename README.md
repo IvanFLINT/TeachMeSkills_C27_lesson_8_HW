@@ -1,0 +1,1 @@
+task1: Clinic simulation program. Sojit abstract class Doctors with treat method, for each class of doctors. In the runner class, the method for selecting a treatment plan is launched and displays information about the assigned plan and the doctor
