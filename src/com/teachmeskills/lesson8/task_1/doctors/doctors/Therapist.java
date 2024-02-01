@@ -8,7 +8,6 @@ import com.teachmeskills.lesson8.task_1.patientList.patients.Patient;
  */
 
 public class Therapist extends Doctors {
-    Patient human = new Patient();
     A_surgeon as = new A_surgeon();
     Dentist den = new Dentist();
     public void treat() {
