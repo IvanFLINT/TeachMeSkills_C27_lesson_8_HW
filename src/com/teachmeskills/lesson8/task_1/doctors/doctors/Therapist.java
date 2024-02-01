@@ -14,7 +14,6 @@ public class Therapist extends Doctors {
     public void treat() {
         System.out.println("Померять температуру");
     }
-
     public void doctorsChoice(int number){
         if(number == 1){
             human.setDoctor("Хирург");
