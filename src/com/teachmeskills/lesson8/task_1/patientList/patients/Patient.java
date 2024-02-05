@@ -14,14 +14,17 @@ public class Patient {
     }
 
     public void setDoctor(String doc){
+
         doctor = doc;
     }
 
     public int  getPlan(){
+
         return treatmentPlan;
     }
 
     public String getDoctor(){
+
         return doctor;
     }
 }

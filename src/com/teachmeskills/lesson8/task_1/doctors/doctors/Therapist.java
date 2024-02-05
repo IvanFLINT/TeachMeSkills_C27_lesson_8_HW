@@ -1,14 +1,13 @@
 package com.teachmeskills.lesson8.task_1.doctors.doctors;
 
 import com.teachmeskills.lesson8.task_1.doctors.Doctors;
-import com.teachmeskills.lesson8.task_1.patientList.patients.Patient;
 
 /**
  * Therapist Description Class
  */
 
 public class Therapist extends Doctors {
-    A_surgeon as = new A_surgeon();
+    Surgeon as = new Surgeon();
     Dentist den = new Dentist();
     public void treat() {
         System.out.println("Померять температуру");

@@ -6,7 +6,7 @@ import com.teachmeskills.lesson8.task_1.patientList.patients.Patient;
 /**
  * Surgeon Description Class
  */
-public class A_surgeon extends Doctors {
+public class Surgeon extends Doctors {
     Patient human = new Patient();
 
     public void treat() {
